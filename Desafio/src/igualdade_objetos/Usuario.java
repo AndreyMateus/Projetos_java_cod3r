@@ -7,7 +7,6 @@ public class Usuario {
     String email;
     
     public boolean equals(Object objeto){
-        
         if(objeto instanceof Usuario ){
             Usuario outro = (Usuario) objeto;
 
