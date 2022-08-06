@@ -32,5 +32,7 @@ public class ConjuntoComportado {
             System.out.println(numero);
         }
 
+        //numeros.get(1); Não é possível acessar pelo índice
+
     }
 }
