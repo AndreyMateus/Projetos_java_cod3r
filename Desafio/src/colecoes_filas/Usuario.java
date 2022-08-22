@@ -20,8 +20,8 @@ public class Usuario {
         return nome.equals(usuario.nome);
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(nome);
-    }
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(nome);
+//    }
 }
