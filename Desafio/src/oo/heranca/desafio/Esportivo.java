@@ -1,5 +1,5 @@
 package oo.heranca.desafio;
-
+//Interfaces NÃO herdam interfaces
 //public class nomeDaClasse - também não teria problema, pois podemos transforma uma classe em uma interface.
 public interface Esportivo {
     //dentro de uma interface um método não pode ter corpo
