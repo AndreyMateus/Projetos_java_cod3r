@@ -9,6 +9,7 @@ public interface Calculo {
     // OU
     //public abstract double executar(double a, double b);
 
+
     //default é uma exceção para criação de outros métodos, porém só o método abstrato poderá ser chamado em uma função lambda.
     /*
     default String legal(double a, double b){
@@ -23,5 +24,6 @@ public interface Calculo {
         return "Muito legal";
     }
     */
+
 
 }
