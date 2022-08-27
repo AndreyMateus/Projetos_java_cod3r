@@ -26,9 +26,12 @@ public class Consumidor {
 
         List<Produto> produtos = Arrays.asList(p1);
         // o forEach espera sempre receber um CONSUMER, uma função que irá executar passos e não retornará nada.
+        //Como o forEach já consome um CONSUMER, ele já sabe que terá que chamar um ACCEPT e faz isso de forma IMPLICITA.
         produtos.forEach(imprimirNome);
         produtos.forEach(p -> System.out.println(p.preco));
-        produtos.forEach(System.out::println);
+        produtos.forEach(System.out::println);//O method reference chama o "toString" automaticamente da CLASSE, caso tenha, se não tiver ele irá imprimir o endereço de memória da classe.
+
+
     }
 
 }
