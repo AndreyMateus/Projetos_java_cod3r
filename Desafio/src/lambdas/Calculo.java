@@ -4,7 +4,6 @@ package lambdas;
 //Para usar funções LAMBDAS, é necessários que a INTERFACE seja uma INTERFACE FUNCIONAL/ FUNCTIONAL INTERFACE
 public interface Calculo {
 
-
     double executar(double a, double b);//ÚNICO MÉTODO ABSTRATO
     // OU
     //public abstract double executar(double a, double b);
