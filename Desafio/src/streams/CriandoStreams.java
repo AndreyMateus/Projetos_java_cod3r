@@ -10,6 +10,9 @@ import java.util.stream.Stream;
 
 public class CriandoStreams {
     public static void main(String[] args) {
+
+        //STREAM é utilizado para TRATAR um CONJUNTO DE DADOS
+
         //Temos DOIS tipos de STREAMS
         //ORDENADAS E NÃO ORDENADAS
         //E DENTRO DESSAS CLASSIFICAÇÕES ELAS PODEM SER: PARALELAS E NÃO PARALELAS

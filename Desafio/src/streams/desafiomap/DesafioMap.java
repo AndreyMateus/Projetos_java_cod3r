@@ -1,6 +1,7 @@
 package streams.desafiomap;
 
 import lambdas.consumidor.Consumidor;
+import streams.Utilitarios;
 
 import java.util.Arrays;
 import java.util.List;
@@ -31,6 +32,7 @@ public class DesafioMap {
             return completeTradeIndice;
         };
          */
+
 
         Function<String, Integer> converteBinaryStringToDecimalInteger = num -> Integer.parseInt(num,2);// o segundo parâmetro é para indicar qual base o número será convertido, por isso é o número 2, que significa BASE 2, BI-nário.
 
