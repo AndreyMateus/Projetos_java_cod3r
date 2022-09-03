@@ -19,7 +19,10 @@ public class Reduce3 {
 
         Predicate<Aluno> aprovados = aluno -> aluno.nota >= 7;
         Function<Aluno, Double> apenasNota = aluno -> aluno.nota;
-        BiFunction<Media, Double, Media> calcularMedia = (media, nota) -> media.adicionar(nota);//<Acumulador, valorDeCadaElemento, Resultado>
+
+        //BiFunction <Valor recebido, Segundo valor recebido, valor retornado>
+        BiFunction<Media, Double, Media> calcularMedia = (media, nota) -> media.adicionar(nota);//dentro da  função ADICIONAR eu também retorno um THIS, por isso ele devolver um objeto do tipo MEDIA
+        // <Acumulador, valorDeCadaElemento, Resultado>
 
         BinaryOperator<Media> combinarMedia = (m1, m2) -> Media.combinar(m1, m2);
 

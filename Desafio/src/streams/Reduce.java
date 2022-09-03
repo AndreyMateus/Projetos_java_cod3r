@@ -28,7 +28,7 @@ public class Reduce {
 
         //Resultado foi um Opcional<Integer>...
         //quando se tem um Opcional você tem que chamar o GET
-        //Porém quando se é um Opcional ele tem algumas funcões como o ifPresente e não necessário chamar o get caso você chame outra função.
+        //Porém quando se é um Opcional ele tem algumas funcões como o ifPresente e não é necessário chamar o get caso você chame outra função.
         nums.stream().filter(n -> n > 5).reduce(soma).ifPresent(System.out::println);
 
     }
