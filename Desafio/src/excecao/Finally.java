@@ -1,10 +1,9 @@
 package excecao;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Finally {
     public static void main(String[] args) {
-
         Scanner entrada = new Scanner(System.in);
 
         try{
@@ -17,6 +16,15 @@ public class Finally {
             System.out.println("Finally...");
             entrada.close();
         }
+
+        //Podemos também utilizar o TRY e o FINALLY sem ter um CATCH.
+//        try{
+//            System.out.println( 7 / entrada.nextInt());
+//        } finally {
+//            System.out.println("Finally...");
+//            entrada.close();
+//        }
+
 
         System.out.println("Fim");
     }
